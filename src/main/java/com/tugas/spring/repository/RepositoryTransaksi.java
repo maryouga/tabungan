@@ -1,0 +1,12 @@
+package com.tugas.spring.repository;
+
+import com.tugas.spring.entity.EntityTransaksi;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+
+@Repository
+public interface RepositoryTransaksi extends JpaRepository<EntityTransaksi, Long> {
+
+}
